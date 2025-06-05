@@ -1,0 +1,7 @@
+git init
+git status
+git add .
+git commit -m "message"
+git remote add origin "link.git"
+git branch -m master main
+git push -u  origin branchname(main/master)
