@@ -8,5 +8,7 @@ font Awesome
 
 https://flexboxlabs.netlify.app/
 FlexBox froggy
+https://learncssgrid.com/
+https://cssgridgarden.com/
 https://www.frontendmentor.io/challenges
 codepen
