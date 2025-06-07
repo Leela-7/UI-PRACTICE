@@ -1,0 +1,97 @@
+:root {
+    --dark-grey: #1F1F1F;
+    --grey: #333333;
+    --light-grey: #DEDEDE;
+    --green: #C4F82A;
+    --white: #FFFFFF;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--dark-grey);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+.profile-card {
+    background-color: var(--grey);
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    max-width: 380px; 
+    width: 100%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    object-fit: cover; 
+    margin-bottom: 24px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--white);
+}
+
+.location {
+    color: var(--green);
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.bio {
+    font-size: 16px;
+    margin-bottom: 24px;
+    color: var(--light-grey);
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; 
+}
+
+.btn {
+    display: block;
+    background-color: var(--dark-grey);
+    color: var(--white);
+    padding: 16px 20px;
+    border-radius: 8px;
+    text-decoration: none; 
+    font-weight: 600;
+    font-size: 14px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+/* Basic responsiveness for smaller screens */
+@media (max-width: 480px) {
+    .profile-card {
+        padding: 25px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .location, .bio {
+        font-size: 15px;
+    }
+
+    .btn {
+        padding: 14px 18px;
+        font-size: 13px;
+    }
+}
