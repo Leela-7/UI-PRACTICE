@@ -75,6 +75,17 @@ h1 {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+.btn:hover {
+    background-color: lightblue;
+    color: var(--dark-grey);
+}
+.social-links a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
 
 /* Basic responsiveness for smaller screens */
 @media (max-width: 480px) {
